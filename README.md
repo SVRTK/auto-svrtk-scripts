@@ -7,7 +7,7 @@ This repository is used for storage of scripts for automated  processing of feta
 
 The scripts were installed in the corresponding docker containers together with network weights and SVRTK software. 
 
-The code was created by Dr Alena Uus.  
+The code was created by Dr Alena Uus.    
 
 
 License
