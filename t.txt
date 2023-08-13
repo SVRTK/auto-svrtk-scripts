@@ -1,5 +1,0 @@
-LICENSE
-README.md
-auto-brain-bounti-segmentation-fetal.sh
-auto-brain-reconstruction.sh
-auto-thorax-reconstruction.sh
