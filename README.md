@@ -5,9 +5,7 @@ This repository is used for storage of scripts for automated  processing of feta
 - segmentation
 - SVR-based reconstruction
 
-The scripts were installed in the corresponding docker containers together with network weights and SVRTK software. 
-
-The trained network weights can be found in: https://gin.g-node.org/SVRTK/fetal_mri_network_weights . 
+The scripts were installed in the corresponding docker containers together with network weights and SVRTK software.  
 
 The code was created by Dr Alena Uus.    
 
