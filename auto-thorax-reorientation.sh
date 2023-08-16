@@ -191,7 +191,7 @@ number_of_stacks=$(find org-files-preproc/ -name "*.nii*" | wc -l)
 ${mirtk_path}/mirtk prepare-for-monai res-reo-files/ reo-files/ stack-info.json stack-info.csv ${res} ${number_of_stacks} org-files-preproc/*nii* > tmp.log
 
 mkdir monai-segmentation-results-reo
-python ${segm_path}/run_monai_unet_segmentation.py ${main_dir}/ ${monai_check_path_dsvr_body_reo}/ stack-info.json ${main_dir}/monai-segmentation-results-reo ${res} ${monai_lab_num}
+python ${segm_path}/run_monai_unet_segmentation-2022.py ${main_dir}/ ${monai_check_path_dsvr_body_reo}/ stack-info.json ${main_dir}/monai-segmentation-results-reo ${res} ${monai_lab_num}
 
 
 number_of_stacks=$(find monai-segmentation-results-reo/ -name "*.nii*" | wc -l)
