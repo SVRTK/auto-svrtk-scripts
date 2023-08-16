@@ -23,7 +23,12 @@ echo "--------------------------------------------------------------------------
 echo "-----------------------------------------------------------------------------"
 echo
 
+source /root/.bashrc
+
 eval "$(conda shell.bash hook)"
+
+conda init bash
+
 #conda init bash
 conda activate Segmentation_FetalMRI_MONAI
 

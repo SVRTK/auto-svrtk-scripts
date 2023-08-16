@@ -661,24 +661,6 @@ if [ $recon_roi = "body" ]; then
     cd ${main_dir}
 
 
-    # heart_atlas=/home/auto-proc-svrtk/templates/heart-atlas.nii.gz
-
-    # ${mirtk_path}/mirtk init-dof i.dof 
-
-    # ${mirtk_path}/mirtk register DSVR-output-${recon_roi}.nii.gz ${heart_atlas} -model Rigid -bg 0 -dofin i.dof -dofout dof-to-atl-${recon_roi}.dof -v 0 
-
-    # ${mirtk_path}/mirtk invert-dof dof-to-atl-${recon_roi}.dof dof-to-atl-${recon_roi}.dof
-
-    # ${mirtk_path}/mirtk info dof-to-atl-${recon_roi}.dof
-    
-    # ${mirtk_path}/mirtk resample-image ${template_path}/body-stack-reo-template-2023/ref-space.nii.gz  ref.nii.gz -size ${recon_resolution} ${recon_resolution} ${recon_resolution}
-
-    # ${mirtk_path}/mirtk transform-image DSVR-output-${recon_roi}.nii.gz reo-DSVR-output-${recon_roi}.nii.gz -target ref.nii.gz -dofin dof-to-atl-${recon_roi}.dof -interp BSpline
-    # ${mirtk_path}/mirtk threshold-image reo-DSVR-output-${recon_roi}.nii.gz tmp-m.nii.gz 0.01
-    # ${mirtk_path}/mirtk crop-image reo-DSVR-output-${recon_roi}.nii.gz tmp-m.nii.gz reo-DSVR-output-${recon_roi}.nii.gz
-    # ${mirtk_path}/mirtk nan reo-DSVR-output-${recon_roi}.nii.gz 100000
-    
-
     number_of_stacks=1
     roi=body
     res=128
