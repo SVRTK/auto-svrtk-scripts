@@ -10,6 +10,9 @@ The scripts were installed in the corresponding docker containers together with 
 The code was created by Dr Alena Uus.    
 
 
+Development of SVRTK was supported by projects led by Dr Maria Deprez, Prof Mary Rutherford, Dr Jana Hutter, Dr Lisa Story and Prof Jo Hajnal.
+
+
 License
 -------
 
