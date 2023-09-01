@@ -1,11 +1,11 @@
 Scripts for automated SVRTK reconstruction and segmentation solutions (work in progress)
 ====================
 
-This repository is used for storage of scripts for automated  processing of fetal MRI in [SVRTK dockers](https://hub.docker.com/r/fetalsvrtk/) and general processing for:
+This repository is used for **storage / log** of scripts for automated  processing of fetal MRI in [SVRTK dockers](https://hub.docker.com/r/fetalsvrtk/) and general processing for:
 - segmentation
 - SVR-based reconstruction
 
-The scripts were installed in the corresponding docker containers together with network weights and SVRTK software.  
+_Note: The scripts were installed in the corresponding docker containers together with network weights and SVRTK software. I.e., they cannot be used as standalone applications and need to be executed from the dockers._  
 
 The code was created by Dr Alena Uus.    
 
