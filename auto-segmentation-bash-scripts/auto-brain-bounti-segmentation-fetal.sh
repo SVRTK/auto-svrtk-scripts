@@ -95,7 +95,7 @@ echo "--------------------------------------------------------------------------
 echo
 
 if [[ $# -ne 2 ]] ; then
-    echo "Usage: bash /home/segmentation/auto-brain-bounti-segmentation-fetal.sh"
+    echo "Usage: bash /home/auto-proc-svrtk/auto-brain-bounti-segmentation-fetal.sh"
     echo "            [full path to the folder with 3D T2w SVR recons]"
     echo "            [full path to the folder for segmentation results]"
     echo

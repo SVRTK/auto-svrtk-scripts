@@ -38,7 +38,7 @@ default_run_dir=/home/tmp_proc
 
 
 mirtk_path=${software_path}/MIRTK/build/bin
-segm_path=${software_path}/segmentation
+segm_path=${software_path}/auto-proc-svrtk
 template_path=${segm_path}/templates
 
 
@@ -89,7 +89,7 @@ echo "--------------------------------------------------------------------------
 echo
 
 if [[ $# -ne 2 ]] ; then
-    echo "Usage: bash /home/segmentation/auto-thorax-reorientation.sh"
+    echo "Usage: bash /home/auto-proc-svrtk/auto-thorax-reorientation.sh"
     echo "            [full path to the folder with T2w DSVR recons]"
     echo "            [full path to the folder for reoriented results]"
     exit
